@@ -51,6 +51,6 @@ Ví dụ: Mộc khắc thổ, sát thương người chơi (hoặc quái vật) 
 2. Cho biết phần tử có mức sát thương cao nhất trong danh sách. 
 3. Cho hai phần tử A và B, so sánh giá trị sát thương tác động A lên B và ngược lại. 
 
-##Cài đặt
+## Cài đặt
 
 Build project bằng Visual Studio Version 10 trở lên.
