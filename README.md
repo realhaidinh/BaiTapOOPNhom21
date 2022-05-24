@@ -15,26 +15,31 @@ Một nét đặc sắc của game đó là hệ thống ngũ hành tương sinh
 Hệ Kim: 
 
  o Thiếu Lâm 
+ 
  o Thiên Vương bang 
 
 Hệ Mộc: 
 
  o Ngũ Độc giáo 
+ 
  o Đường Môn 
 
 Hệ Thủy: 
 
  o Nga My 
+ 
  o Thúy Yên môn 
 
 Hệ Hỏa: 
 
  o Cái Bang 
+ 
  o Thiên Nhẫn giáo 
 
 Hệ Thổ: 
 
  o Côn Lôn 
+ 
  o Võ Đang 
 
 ![alt text](https://github.com/realhaidinh/BaiTapOOPNhom21/blob/main/nguhanh.png?raw=true)
