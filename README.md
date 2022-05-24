@@ -1,6 +1,3 @@
-# BaiTapOOPNhom21
-Võ Lâm Truyền Kỳ
-
 # Bài tập OOP nhóm 21
 ## Võ Lâm Truyền Kỳ
 
