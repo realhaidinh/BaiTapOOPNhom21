@@ -31,7 +31,7 @@ Hệ Thổ:
 o Côn Lôn 
 o Võ Đang 
 
-![alt text]([https://github.com/(https://github.com/realhaidinh/BaiTapOOPNhom21/blob/main/nguhanh.png?raw=true)
+![alt text](https://github.com/realhaidinh/BaiTapOOPNhom21/blob/main/nguhanh.png?raw=true)
 
 Quy tắc tương sinh: (S) Sát thương gây ra cho người chơi hoặc quái vật + 10 % 
 Ví dụ: Hoả sinh thổ, sát thương người chơi (hoặc quái vật) hệ hoả gây ra cho người chơi (hoặc quái vật) hệ thổ + 10 % 
