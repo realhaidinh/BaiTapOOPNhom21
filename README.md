@@ -11,25 +11,26 @@ Nhân vật: Được xem như đại diện cho một người chơi. Mỗi nh�
 
  Quái vật: Để gia tăng cấp độ nhân vật của mình, mỗi người chơi sẽ thông qua việc tiêu diệt các quái vật. Có hai loại quái vật: thông thường và đầu lĩnh. Các quái vật cũng sẽ có khả năng tấn công lại người chơi. Quái vật thông thường: Sát thương = Cấp độ x 3. Quái vật đầu lĩnh: Sát thương = Cấp độ x 7 
 Một nét đặc sắc của game đó là hệ thống ngũ hành tương sinh tương khắc, mỗi một môn phái và quái vật sẽ thuộc về một “hành” nhất định và tương tác giữa các người chơi với nhau, giữa người chơi với quái vật đều dựa trên các quy tắc về ngũ hành.
+
 Hệ Kim: 
-o Thiếu Lâm 
-o Thiên Vương bang 
+ o Thiếu Lâm 
+ o Thiên Vương bang 
 
 Hệ Mộc: 
-o Ngũ Độc giáo 
-o Đường Môn 
+ o Ngũ Độc giáo 
+ o Đường Môn 
 
 Hệ Thủy: 
-o Nga My 
-o Thúy Yên môn 
+ o Nga My 
+ o Thúy Yên môn 
 
 Hệ Hỏa: 
-o Cái Bang 
-o Thiên Nhẫn giáo 
+ o Cái Bang 
+ o Thiên Nhẫn giáo 
 
 Hệ Thổ: 
-o Côn Lôn 
-o Võ Đang 
+ o Côn Lôn 
+ o Võ Đang 
 
 ![alt text](https://github.com/realhaidinh/BaiTapOOPNhom21/blob/main/nguhanh.png?raw=true)
 
