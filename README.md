@@ -56,4 +56,4 @@ Ví dụ: Mộc khắc thổ, sát thương người chơi (hoặc quái vật) 
 
 ##Cài đặt
 
-Build project bằng Visual Studio 2022
+Build project bằng Visual Studio Version 10 trở lên.
