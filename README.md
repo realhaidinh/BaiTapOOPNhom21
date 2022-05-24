@@ -13,22 +13,27 @@ Nhân vật: Được xem như đại diện cho một người chơi. Mỗi nh�
 Một nét đặc sắc của game đó là hệ thống ngũ hành tương sinh tương khắc, mỗi một môn phái và quái vật sẽ thuộc về một “hành” nhất định và tương tác giữa các người chơi với nhau, giữa người chơi với quái vật đều dựa trên các quy tắc về ngũ hành.
 
 Hệ Kim: 
+
  o Thiếu Lâm 
  o Thiên Vương bang 
 
 Hệ Mộc: 
+
  o Ngũ Độc giáo 
  o Đường Môn 
 
 Hệ Thủy: 
+
  o Nga My 
  o Thúy Yên môn 
 
 Hệ Hỏa: 
+
  o Cái Bang 
  o Thiên Nhẫn giáo 
 
 Hệ Thổ: 
+
  o Côn Lôn 
  o Võ Đang 
 
@@ -45,4 +50,5 @@ Ví dụ: Mộc khắc thổ, sát thương người chơi (hoặc quái vật) 
 3. Cho hai phần tử A và B, so sánh giá trị sát thương tác động A lên B và ngược lại. 
 
 ##Cài đặt
+
 Build project bằng Visual Studio 2022
