@@ -46,8 +46,8 @@ Player::Player(unsigned int level, EClassID classID, std::string Name) : Entity{
 }
 
 void Player::info(){
-	std::cout << "Ten cua nhan vat: " << m_sName << '\n';
-	std::cout << "Bang: " << getClassName(m_eClass) << '\n';
+	std::cout << "\tTen cua nhan vat: " << m_sName << '\n';
+	std::cout << "\tBang: " << getClassName(m_eClass) << '\n';
 	Entity::info();
 }
 

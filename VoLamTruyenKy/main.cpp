@@ -3,6 +3,6 @@
 
 int main() {
 	World world;
-	world.init();
+	world.Init();
 	return 0;
 }

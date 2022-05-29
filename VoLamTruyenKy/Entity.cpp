@@ -39,9 +39,9 @@ void Entity::setElement(EElementsID elementID){
 }
 
 void Entity::info(){
-	std::cout << "Cap do: " << m_iLevel << '\n';
-	std::cout << "Muc sat thuong: " << m_iBaseAttackDamage << '\n';
-	std::cout << "Hanh: " << getElementType(m_eElementID) << '\n';
+	std::cout << "\tCap do: " << m_iLevel << '\n';
+	std::cout << "\tMuc sat thuong co ban: " << m_iBaseAttackDamage << '\n';
+	std::cout << "\tHanh: " << getElementType(m_eElementID) << '\n';
 }
 
 double Entity::getDamageMultiplierTo(const Entity& enemy)

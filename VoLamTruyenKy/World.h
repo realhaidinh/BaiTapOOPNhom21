@@ -8,7 +8,15 @@ private:
 	std::vector<Entity* > m_vEntity;
 public:
 	World();
-	void init();
+
+	void AddPlayer();
+	void AddMonster();
+	void DisplayEntityInformation();
+	void DisplayAllInformation();
+	void Comparison();
+	void DisplayHighestDamage();
+	void Init();
+
 	~World();
 };
 

@@ -12,7 +12,13 @@ Monster::Monster(unsigned int level, EElementsID elementID, bool isBoss, std::st
 
 
 void Monster::info(){
-	std::cout << "Ten quai vat: " << m_sName <<'\n';
+	std::cout << "\tTen quai vat: " << m_sName <<'\n';
+	if (m_bIsBoss) {
+		std::cout << "\tLa quai dau linh.\n";
+	}
+	else {
+		std::cout << "\tLa quai thong thuong.\n";
+	}
 	Entity::info();
 }
 
