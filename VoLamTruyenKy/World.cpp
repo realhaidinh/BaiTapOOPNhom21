@@ -8,12 +8,13 @@ void World::AddPlayer(){
 	unsigned int cClass = 0, cLevel;
 	std::cout << "Nhap ten cua nhan vat:";
 	std::cin.ignore();
-	do {
-		getline(std::cin, Name);
-	} while (Name.empty());
+	while (std::getline(std::cin, Name) && Name.empty()) {
+		std::cout << "Ten khong duoc bo trong. ";
+	}
 	std::cout << "Chon Bang Phai cho nhan vat.\n";
-	std::cout << "0. Thieu Lam, 1. Thien Vuong Bang, 2. Ngu Doc Giao, 3. Duong Mon, 4. Nga My.\n";
-	std::cout << "5. Thuy Yen Mon, 6. Cai Bang, 7. Thien Nhan Giao, 8. Con Lon, 9. Vo Dang.\n";
+	for (unsigned int id = 0; id < 10; ++id) {
+		std::cout << '\t' << id << ". " << getClassName((EClassID)id) << ".\n";
+	}
 	std::cout << "Lua chon:";
 	while (std::cin >> cClass&& cClass < 0 || cClass>9) {
 		std::cout << "Vui long nhap trong khoang 0 den 9. ";
@@ -28,9 +29,9 @@ void World::AddMonster(){
 	unsigned int cClass = 0, cLevel, isBoss = 0, cEle = 0;
 	std::cout << "Nhap ten cua quai vat:";
 	std::cin.ignore();
-	do {
-		getline(std::cin, Name);
-	} while (Name.empty());
+	while (std::getline(std::cin, Name) && Name.empty()) {
+		std::cout << "Ten khong duoc bo trong. ";
+	}
 	std::cout << "Cap do cua quai vat:";
 	std::cin >> cLevel;
 	std::cout << "Quai co phai la dau linh khong? (0. Khong, 1.Co):";
@@ -112,7 +113,6 @@ void World::DisplayHighestDamage(){
 		}
 		EntHighestDamage = m_vEntity[index];
 		std::cout << "Doi tuong co muc sat thuong cao nhat.\n ";
-		std::cout << "Tong sat thuong da gay ra:" << highestDamage << '\n';
 		EntHighestDamage->info();
 	}
 	else {
@@ -176,8 +176,9 @@ void World::Init(){
 }
 
 World::~World(){
+	Entity* temp;
 	while (!m_vEntity.empty()) {
-		Entity* temp = m_vEntity.back();
+		temp = m_vEntity.back();
 		delete temp;
 		m_vEntity.pop_back();
 	}
