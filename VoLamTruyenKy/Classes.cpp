@@ -2,7 +2,6 @@
 
 
 std::string getClassName(EClassID ClassID){
-	
 	switch (ClassID){
 	case ThieuLam: {
 		return "Thieu Lam";
